@@ -7,6 +7,12 @@ a{
     text-decoration: none;
 
 }
+
+h2{
+    font-size: 20px;
+    margin-left: 25vh;   
+    margin-top: 23vh; 
+}
 ul, ol, li {
     list-style: none;
 }
@@ -38,18 +44,99 @@ header nav a:hover{
 }
 
 #vermelho{
-    background-color: red;
+    background-color: #D9D9D9;
 }
 #verde{
-    background-color: green;
+    background-color: #491652;
 
 }
 #azul{
-    background-color: blue;
+    background-color: #DD4B4B;
 }
 #amarelo{
-    background-color: yellow;
+    background-color: #CFCF1D;
 }
 #roxo{
-    background-color: purple;
+    background-color: #1EC07D;
+}
+.skin1{
+    width: 40vw;
+    float: right;
+    display: flex;
+    align-items: center;
+    margin-top: 15vh;
+    margin-right: 12vh;
+   
+}
+.skin2{
+    width: 70vh;        
+    float:left;
+    display: flex;
+    margin-top: 10vh;
+    margin-left: 5vw;
+}
+.skin3{
+    width: 40vw;
+    float:left;
+    display: flex;
+    align-items: center;
+    margin-left: 12vh;
+    margin-top: 14vw;
+   
+}
+.skin4{
+    width: 37vw;
+    float:right;
+    display: flex;
+    margin-right: 62vh;
+    margin-top: 1vh;
+
+}
+.skin5{
+    width: 25vw;
+    float: right;
+    display: flex;
+     margin-right: 40vh;
+     margin-top: 8vh;
+}
+.skin6{
+    width: 40vw;
+    float: right;
+    display: flex;
+    align-items: center;
+    margin-right: 1vh;   
+}
+
+.titulo1{
+    position: relative;
+    top: 550px;
+    margin-left: 30vh;
+    font-size: 200px;
+}
+.titulo2{
+    position: relative;
+    top: 550px;
+    text-align: right;
+    margin-right: 30vh;
+    font-size: 200px;
+}
+.titulo3{
+    position: relative;
+    top: 550px;
+    font-size: 100px;
+    text-align: center;
+    
+}
+.titulo4{
+    position: relative;
+    top: -800px;
+    text-align: right;
+    margin-left: 20vh;
+    font-size: 200px;
+}
+.titulo5{
+    position: relative;
+    top: 800px;
+    margin-left: 10vw;
+    font-size: 200px;
 }

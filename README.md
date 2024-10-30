@@ -1,6 +1,6 @@
-# landing page - let's go, pikachu
+# landing page - site vertical
 
-![](./screenshot/image.png)
+![](./Captura%20de%20Tela%202024-10-30%20às%2017.25.05.png)
 
 ---
 

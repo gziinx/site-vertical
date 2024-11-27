@@ -7,6 +7,9 @@ a{
     text-decoration: none;
 
 }
+h1{
+    font-family: 'Bangers', sans-serif;
+}
 
 h2{
     font-size: 20px;
@@ -16,6 +19,7 @@ h2{
 ul, ol, li {
     list-style: none;
 }
+
 html, body{
     scroll-behavior: smooth;
 }
@@ -26,8 +30,11 @@ header{
 }
 header nav ul{
     display: flex;
+    margin-left: 130VH;
     justify-content: space-between;
     padding: 16px;
+   font-size: x-large;
+
 }
 header nav a {
     color: white;
@@ -39,35 +46,38 @@ header nav a:hover{
     color: black;
 
 }
+
 .grupo {
     height: 100vh;
 }
 
 #vermelho{
-    background-color: #D9D9D9;
+    background-image: url(./img/konoha-1279-x-718-kwldytpkkc1uo4qb-photoaidcom-darken.webp) ;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 #verde{
-    background-color: #491652;
-
+    background-image: url(./img/naruto-and-neji-chunin-d8ekdhs4t7ei4x2x-photoaidcom-darken.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 #azul{
-    background-color: #DD4B4B;
+    background-image: url(./img/Gamabunta_vs_Shukaku-photoaidcom-darken.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 #amarelo{
-    background-color: #CFCF1D;
+    background-image: url(./img/Rozstanie-photoaidcom-darken.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 #roxo{
-    background-color: #1EC07D;
+    background-image: url(./img/i-finished-nns2-naruto-vs-pain-v0-o2rg82lqn6id1-photoaidcom-darken.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
-.skin1{
-    width: 40vw;
-    float: right;
-    display: flex;
-    align-items: center;
-    margin-top: 15vh;
-    margin-right: 12vh;
-   
-}
+
+
 .skin2{
     width: 70vh;        
     float:left;
@@ -109,16 +119,20 @@ header nav a:hover{
 
 .titulo1{
     position: relative;
-    top: 550px;
-    margin-left: 30vh;
-    font-size: 200px;
+    top: 80px;
+    margin-left: 50vh;
+    font-size: 80px;
+    color: #E97E13;
+    font-family: Arial, Helvetica, sans-serif;
+    
 }
 .titulo2{
-    position: relative;
-    top: 550px;
-    text-align: right;
-    margin-right: 30vh;
-    font-size: 200px;
+    padding: 40px;
+    position: relative;    
+    margin-left: 400px;
+    font-size: 150px;
+    color: white;
+    word-spacing:400px;
 }
 .titulo3{
     position: relative;
@@ -139,4 +153,18 @@ header nav a:hover{
     top: 800px;
     margin-left: 10vw;
     font-size: 200px;
+}
+p{
+    text-align: center;
+    margin-top: 40vh;
+    font-size: 70px;
+    color: #E97E13;
+
+}
+.imagemjore{
+    float: left;
+    margin-top: 10px;
+    margin-left: 45px;
+    width: 110px;
+    height: auto;
 }

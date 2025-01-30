@@ -22,6 +22,10 @@ ul, ol, li {
 html, body{
     scroll-behavior: smooth;
 }
+body {
+    padding-top: 100px;
+}
+
 header{
     position: fixed;
     background-color: #333;
